@@ -1,24 +1,35 @@
 ---
-
-const{ title }=Astro.props;
+const { title } = Astro.props;
 ---
 
 <section>
+<div class="container">
     {title && <h2>{title}</h2>}
     <slot />
+</div>
 </section>
-
-
 
 <style>
     section {
-        max-width: 700px;
-        margin: 0 auto 72px;
+      max-width: 800px;
+      margin: 0 auto 48px;
+      
     }
+    .container {
+      margin: 0 auto;
+    max-width: 92%;
+  }
+  
     h2 {
-        margin-bottom: 8px;
-        font-weight: 700;
-        line-height: 1.5rem;
-        font-size: 1.5rem;
+      margin-bottom: 8px;
+      font-weight: 700;
+      line-height: 1.5;
+      font-size: 1.5rem;
     }
-</style>
+  
+    @media (width <= 700px) {
+      section {
+        margin-bottom: 38px;
+      }
+    }
+  </style>

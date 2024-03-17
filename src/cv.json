@@ -3,12 +3,12 @@
       "name": "Marco Jaramillo Castro",
       "label": "Software Enggenier",
       "image": "../me.webp",
-      "email": "john@gmail.com",
+      "email": "marco.jaramillocast@gmail.com",
       "phone": "(912) 555-4321",
       "linkedin": "https://www.linkedin.com/in/marcojaram/",
       "github": "https://github.com/marco-jaram",
       "url": "https://johndoe.com",
-      "summary": "A summary of John Doe…",
+      "summary": "Hola! 👋 Estoy por egresar como Ingeniero en Software, entusiasmado por embarcarme en mi carrera profesional en el mundo del desarrollo de aplicaciones web. Mi enfoque principal se centra en el desarrollo utilizando tecnologías basadas en Java, y tengo conocimiento sobre el framework Spring Boot y el uso de JPA para una gestión de bases de datos sólida y efectiva.",
       "location": {
         "address": "2712 Broadway St",
         "postalCode": "CA 94115",
@@ -19,12 +19,12 @@
      
     },
     "work": [{
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
+      "name": "Universida Autonoma de Baja California",
+      "position": "Profesor",
+      "url": "https://uabc.com",
       "startDate": "2013-01-01",
       "endDate": "2014-01-01",
-      "summary": "Description…",
+      "summary": "Seminario sobre filosofia de las matematicas",
       "highlights": [
         "Started the company"
       ]
@@ -41,9 +41,9 @@
       ]
     }],
     "education": [{
-      "institution": "University",
+      "institution": "Universidad DaVinci",
       "url": "https://institution.com/",
-      "area": "Software Development",
+      "area": "Software Enggenier",
       "studyType": "Bachelor",
       "startDate": "2011-01-01",
       "endDate": "2013-01-01",
